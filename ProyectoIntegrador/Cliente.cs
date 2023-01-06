@@ -8,5 +8,6 @@ namespace ProyectoIntegrador
 {
     public class Cliente
     {
+        // funciones que realizará el cliente
     }
 }

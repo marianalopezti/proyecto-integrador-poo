@@ -8,18 +8,18 @@ namespace ProyectoIntegrador
 {
     public class Elemento
     {
-        private String TipoElemento;
+        private string TipoElemento;
         public double Ancho;
         public double Alto;
         public double Peso;
 
         // PROPIEDADES
-        public String getTipoElemento()
+        public string getTipoElemento()
         {
             return TipoElemento;
         }
 
-        public void setTipoElemento(String paramTipo)
+        public void setTipoElemento(string paramTipo)
         {
             TipoElemento = paramTipo;
         }

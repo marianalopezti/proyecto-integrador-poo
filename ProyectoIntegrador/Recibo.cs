@@ -8,7 +8,7 @@ namespace ProyectoIntegrador
 {
     public class Recibo
     {
-        public String TipoElemento;
+        public string TipoElemento;
         private double Valor;
         public int TotalDiario;
 
