@@ -10,61 +10,18 @@ namespace ProyectoIntegrador
     {
         static void Main(string[] args)
         {
-            Elemento e = new Elemento();
-            e.Alto = 350;
-            e.Ancho = 100;
-            e.Peso = 200;
-            e.setTipoElemento("Envase de gaseosa");
+            Carrera paramCarrera = new Carrera("Ingeniería en Informática", "Florencio Varela");
+            Alumno paramAlumno = new Alumno(1155991, 45015414, "Agustin", "ezpeleta 347");
+            Profesor paramProfe = new Profesor(891273, 36987100, "Maximiliano Principe", "N/S", "Programacion orientada a objetos", "Ingeniería");
+            Asignatura paramAsignatura = new Asignatura("Programacion orientada a objetos", "Obligatoria", 5, 1, paramCarrera);
+            AsignaturaCursada paramAsigCursada = new AsignaturaCursada(8.5, 9.5, paramAsignatura, paramAlumno);
 
-            Elemento b = new Elemento();
-            b.Alto = 120;
-            b.Ancho = 50;
-            b.Peso = 50;
-            b.setTipoElemento("Botella de vidrio");
-
-            int alto, ancho, peso;
-
-
-            Console.WriteLine("Ingrese alto del producto: ");
-            alto = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Ingrese ancho del producto: ");
-            ancho = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Ingrese peso del producto: ");
-            peso = int.Parse(Console.ReadLine());
-
-            if(alto > 0 && ancho > 0 && peso > 0)
-            {
-                // si se cumplen las tres condiciones me muestra por consola el tipo de elemento "Envase de gaseosa"
-                if(alto== 350 && ancho== 100 && peso == 200)
-                {
-                    Console.WriteLine("Tipo: " + e.getTipoElemento());
-                }
-                // si se cumplen las tres condiciones me muestra por consola el tipo de elemento "Botella de vidrio"
-                if (alto == 120 && ancho == 50 && peso == 50)
-                {
-                    Console.WriteLine("Tipo: " + b.getTipoElemento());
-                }
-                else
-                {
-                    Console.WriteLine("Ese producto no existe");
-                }
-            }
+            Console.Write("********************* HISTORIA ACADÉMICA ********************\n");
+            Console.WriteLine($"Nombre: {paramAlumno.Nombre} \nCarrera: {paramCarrera.Nombre}\nProfesor: {paramProfe.Nombre}\nSede: {paramAsignatura.ParamCarrera.Sede}");
+            Console.WriteLine($"Nota Final: {paramAsigCursada.Final}\nMateria: {paramAsigCursada.ParamAsignatura.ParamCarrera.Nombre}");
+            Console.WriteLine(paramAlumno.saludar());
 
             Console.ReadKey();
-
-            //Recibo r = new Recibo();
-            //r.TipoElemento = e.getTipoElemento();
-            //r.TotalDiario = 100;
-            //r.setValor(250);
-
-            //Console.WriteLine("Datos del recibo:");
-            //Console.WriteLine("Tipo de elemento: " + r.TipoElemento);
-            //Console.WriteLine("Total: " + r.TotalDiario);
-            //Console.WriteLine("Valor: " + r.getValor());
-
-            //Console.ReadKey();
 
         }
     }

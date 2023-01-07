@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("ProyectoIntegrador")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("ANDREANI")]
 [assembly: AssemblyProduct("ProyectoIntegrador")]
-[assembly: AssemblyCopyright("Copyright ©  2023")]
+[assembly: AssemblyCopyright("Copyright © ANDREANI 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("93c5bfd3-3914-4911-b169-27666ef8f7fb")]
+[assembly: Guid("3442db59-5e89-402f-9b76-05814b1687d4")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //
