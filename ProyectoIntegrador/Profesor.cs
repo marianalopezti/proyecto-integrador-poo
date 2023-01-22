@@ -18,13 +18,13 @@ namespace ProyectoIntegrador
             this.asignaturaCarrera = asignaturaCarrera;
             this.departamento = departamento;
         }
-        
+
         public int Legajo
         {
             get { return legajo; }
             set { legajo = value; }
         }
-       
+
         public string AsignaturaCarrera
         {
             get { return asignaturaCarrera; }

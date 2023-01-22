@@ -1,0 +1,8 @@
+C:\Users\marilopez\OneDrive - ANDREANI LOGISTICA SA\Escritorio\proyecto-integrador-poo\Envases\bin\Debug\Envases.exe.config
+C:\Users\marilopez\OneDrive - ANDREANI LOGISTICA SA\Escritorio\proyecto-integrador-poo\Envases\bin\Debug\Envases.exe
+C:\Users\marilopez\OneDrive - ANDREANI LOGISTICA SA\Escritorio\proyecto-integrador-poo\Envases\bin\Debug\Envases.pdb
+C:\Users\marilopez\OneDrive - ANDREANI LOGISTICA SA\Escritorio\proyecto-integrador-poo\Envases\obj\Debug\Envases.csproj.AssemblyReference.cache
+C:\Users\marilopez\OneDrive - ANDREANI LOGISTICA SA\Escritorio\proyecto-integrador-poo\Envases\obj\Debug\Envases.csproj.SuggestedBindingRedirects.cache
+C:\Users\marilopez\OneDrive - ANDREANI LOGISTICA SA\Escritorio\proyecto-integrador-poo\Envases\obj\Debug\Envases.csproj.CoreCompileInputs.cache
+C:\Users\marilopez\OneDrive - ANDREANI LOGISTICA SA\Escritorio\proyecto-integrador-poo\Envases\obj\Debug\Envases.exe
+C:\Users\marilopez\OneDrive - ANDREANI LOGISTICA SA\Escritorio\proyecto-integrador-poo\Envases\obj\Debug\Envases.pdb

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoIntegrador", "ProyectoIntegrador\ProyectoIntegrador.csproj", "{3442DB59-5E89-402F-9B76-05814B1687D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABM", "ProyectoIntegrador\ABM.csproj", "{3442DB59-5E89-402F-9B76-05814B1687D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banco", "Banco\Banco\Banco.csproj", "{81A5D47E-BD29-42BA-85FE-6EFA5E28FF25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Envases", "Envases\Envases.csproj", "{B276F1A3-31D6-4F3A-BC29-35D6AF64DADA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3442DB59-5E89-402F-9B76-05814B1687D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3442DB59-5E89-402F-9B76-05814B1687D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3442DB59-5E89-402F-9B76-05814B1687D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A5D47E-BD29-42BA-85FE-6EFA5E28FF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A5D47E-BD29-42BA-85FE-6EFA5E28FF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A5D47E-BD29-42BA-85FE-6EFA5E28FF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A5D47E-BD29-42BA-85FE-6EFA5E28FF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B276F1A3-31D6-4F3A-BC29-35D6AF64DADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B276F1A3-31D6-4F3A-BC29-35D6AF64DADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B276F1A3-31D6-4F3A-BC29-35D6AF64DADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B276F1A3-31D6-4F3A-BC29-35D6AF64DADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
